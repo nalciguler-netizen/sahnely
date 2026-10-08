@@ -1,0 +1,11 @@
+:root{--bg:#F3EFF7;--panel:#fff;--ink:#2A2340;--muted:#6E6787;--accent:#7A1F3D;--line:#DCD4E8;color-scheme:light dark}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1D1B2E;--panel:#282541;--ink:#EDE8F6;--muted:#A9A2C0;--accent:#C2456E;--line:#3A3658}}
+:root[data-theme="dark"]{--bg:#1D1B2E;--panel:#282541;--ink:#EDE8F6;--muted:#A9A2C0;--accent:#C2456E;--line:#3A3658}
+*{box-sizing:border-box}html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:17px/1.6 "Baloo 2",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:720px;margin:0 auto;padding:20px 16px 48px}
+h1{color:var(--accent);font-size:2rem;line-height:1.15;margin:0 0 4px}
+h2{font-size:1.2rem;margin:26px 0 6px}
+p,li{max-width:68ch}
+.tarih{color:var(--muted);margin:0 0 18px}
+a{color:var(--accent)}
